@@ -25,37 +25,38 @@ const html = `
         });
       }, 500);
     </script>
-    <style>
-      @import url("https://p.typekit.net/p.css?s=1&k=vnd5zic&ht=tk&f=39475.39476.39477.39478.39479.39480.39481.39482&a=18673890&app=typekit&e=css");
-      @font-face {
-        font-family: "neo-sans";
-        src: url("https://use.typekit.net/af/00ac0a/00000000000000003b9b2033/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/00ac0a/00000000000000003b9b2033/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/00ac0a/00000000000000003b9b2033/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-        font-style: normal;
-        font-weight: 700;
-      }
-      html {
-        font-family: neo-sans;
-        font-weight: 700;
-        font-size: calc(62rem / 16);
-      }
-      body {
-        background: white;
-      }
-      section {
-        border-radius: 1em;
-        padding: 1em;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-      }
-    </style>
-  </head>
-  <body>
-    <section>
-      Hello from Render!
-    </section>
-  </body>
+    <style> 	
+		p{
+		  background: #8598CC;
+		  width: 140px;
+		  padding:10px;
+		  color: white;
+		}
+		.highlight{
+		  color:#00AEFF;
+		  font-weight:bold;
+	}
+		.button{
+		     background-color: black;
+		     color: white;
+  	   	     border:none ;
+		     padding: 10px 20px;
+		     margin: 5px;
+		     border-radius:15px;
+		     cursor: pointer;
+	}
+	</style>
+	<center>
+		<p>190 x 50 </p>
+	</center>	
+</head>
+<body>
+<center>
+	<h1> Best <span class="highlight"> Shared Hosting </span> Company</h1>
+	<h4 style ="font-weight: initial">With this reponsive landing page template, you can promote your all hosting ,domain and email services</h4>
+	<button class="button"> View Plans</button>     <button class="button"> All Features</button>
+</center>
+</body>
+</html>
 </html>
 `
